@@ -1,0 +1,19 @@
+.topic-listing{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:rgb(243, 243, 243);
+    color:black;
+    border-radius:5px;
+    padding:10px;
+    margin:10px;
+}
+.topic-listing .title{
+   font-size:30px;
+   font-weight: bold;
+}
+
+.topic-listing .info {
+    display: flex;
+    justify-content: space-between;
+}
